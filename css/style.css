@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d6dbdd;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center; 
+    border:#000 3px;
+}
+
+nav li{
+    display:inline;
+    padding-right:20px;
+
+  }
+
+nav{
+    background-color: rgb(88, 109, 112);
+    padding: 25px 0;
+    text-align: right;
+}
+
+
+.firstext p{
+    color: white;
+    font-size: 24px;
+    padding: 0 100px;
+    text-align: center;
+}
+
+
+
+#menu {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    #menu a {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }
+        #menu a:hover {
+            color: #000;
+            text-decoration: underline;
+
+        }
+
+
+
+.firstext p{
+    color:rgb(128, 157, 161);
+    text-align: center;
+}
+
+
+.projects{
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects > img {
+    border: 10px #000 solid;
+    margin: 10px;
+    width: 400px;
+}
+
+
+
+#footer {
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+    #footer a {
+        color: rgba(210, 255, 250, 0.774);
+        text-decoration: none;
+    }
+
+        #footer a:hover {
+            color: #FFF;
+            text-decoration: underline;
+        }
+
+
