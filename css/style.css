@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d6dbdd;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    border:#000 3px;
+}
+
+p {
+    color: rgb(11, 42, 56);
+    font-size: 16px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation */
+nav li{
+    display:inline;
+    padding-right:20px;
+
+}
+
+nav {
+    background-color: #3d626d;
+    padding: 25px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav li a.active {
+    color: white;
+    /* background-color: rgba(19, 67, 88, 0.705); */
+    border-bottom: #fff 1px solid; 
+
+}
+
+
+
+
+/* Navigation Menu Bar*/
+
+#menu {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    #menu a {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }
+        #menu a:hover {
+            color: #000;
+            text-decoration: underline;
+
+        }
+
+
+
+
+/* Projects Grid */
+
+.projects{
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects > img {
+    border: 10px #000 solid;
+    margin: 10px;
+    width: 400px;
+}
+
+/* Form - Contact Page*/
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #364142;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* hover*/
+  input[type=submit]:hover {
+    background-color: #3d626d;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #b5bebe;
+    padding: 20px;
+  }
+
+  /* Resume Image */
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Images */
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* image*/
+  .column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+  }
+
+
+
+  /* Footer */
+
+#footer {
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer a {
+    color: rgba(210, 255, 250, 0.774);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
